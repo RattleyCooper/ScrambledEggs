@@ -7,10 +7,20 @@ It turns text into something like this:
 
 ^ that is the first 4 lines of this README.md encoded.
 
-
 Example:
 
     s = Scrambler()
     encoded = s.scramble('Hello world')
     decoded = s.unscramble(encoded)
 
+Note that encoding the same word or letters over and over again still 
+produces unique output.
+
+Example:
+
+    hello hello hello hello hello
+
+Becomes
+
+    ss	2Bg
+    my,<azgq&6[tak	0Un[ey(
